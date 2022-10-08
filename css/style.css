@@ -692,6 +692,7 @@ body {
 @media only screen and (max-width: 768px) {
 	.header_bg {
 		background-size: 100% 100%;
+		background: url('../images/header_bg.jpg');
 	}
 	.menu li.active a {
 		border-bottom: none;
@@ -787,7 +788,7 @@ body {
 		font-size: 1.5em;
 	}
 	.slider_img img{
-		width: 50%;
+		max-width: 50%;
 	}
 	.grid1_of_3{
 		margin-top: 30px;
