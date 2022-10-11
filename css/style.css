@@ -4,6 +4,15 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
+.tel {
+	font-size: 17px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.img_1 {
+	max-width: 40%;
+	margin-left: 60px;
+}
 body {
 	font-family: 'Open Sans', 'sans-serif';
 	background:#ffffff;
@@ -755,7 +764,8 @@ body {
 		font-size: 2.5em;
 	}
 	.slider_text h3 {
-		font-size: 1.8em;
+		font-size: 2em;
+		font-weight: bold;
 	}
 }
 @media only screen and (max-width: 480px) {
@@ -763,10 +773,11 @@ body {
 		font-size: 2em;
 	}
 	.slider_text h3 {
-		font-size: 1.2em;
+		font-size: 2em;
+		font-weight: bold;
 	}
 	.grid_1_of_1 h3 {
-		line-height: 24px;
+		line-height: 15px;
 	}
 	.grid_1_of_1 p {
 		font-size: 13px;
@@ -779,13 +790,24 @@ body {
 	.breadcrumb {
 		padding: 4% 2% 0%;
 	}
+	.tel {
+		font-size: 15px;
+		margin-left: 20px;
+		margin-top: 10px;
+	}
+	.img_1 {
+		max-width: 20%;
+		margin-left: 40px;
+	}
+	
 }
 @media only screen and (max-width: 320px) {
 	.slider_text h2 {
 		font-size: 2.4em;
 	}
 	.slider_text h3 {
-		font-size: 1.5em;
+		font-size: 2em;
+		font-weight: bold;
 	}
 	.slider_img img{
 		max-width: 50%;
@@ -797,7 +819,8 @@ body {
 		font-size: 26px;
 	}
 	.grid_1_of_1 h3 {
-		font-size: 1.2em;
+		font-size: 2em;
+		font-weight: bold;
 	}
 	.images_1_of_1 p {
 		font-size: 3em;
@@ -818,6 +841,16 @@ body {
 	.span1_of_4 span{
 		margin: 10px 0;
 	}
+	.tel {
+		font-size: 15px;
+		margin-left: 20px;
+		margin-top: 10px;
+	}
+	.img_1 {
+		max-width: 20%;
+		margin-left: 40px;
+	}
+	
 }
 
 
