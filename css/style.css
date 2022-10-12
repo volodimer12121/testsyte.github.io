@@ -732,10 +732,11 @@ body {
 		border-bottom: none;
 	}
 	.slider_text h2 {
-		font-size: 2.8em;
+		font-size: 3em;
 	}
 	.slider_text h3 {
 		font-size: 2em;
+		font-weight: bold;
 	}
 	.breadcrumb {
 		padding: 4% 2% 2%;
@@ -778,12 +779,12 @@ body {
 		margin: 15px 0;
 	}
 }
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 680px){
 	.navbar-toggle {
 		margin-top: 18px;
 	}
 	.slider_text h2 {
-		font-size: 2.5em;
+		font-size: 3em;
 	}
 	.slider_text h3 {
 		font-size: 2em;
