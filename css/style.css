@@ -4,6 +4,25 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
+table {
+	border: 1px solid #6cf;
+  }
+th {
+	font-weight: normal;
+	color: #039;
+	padding: 10px 15px;
+  }
+  td {
+	color: #669;
+	border-top: 1px solid #e8edff;
+	padding: 10px 15px;
+	
+	border-right: 1px dashed #6cf;
+	
+  }
+  tr:nth-child(2n) {
+	background: #e8edff;
+  }
 .price {
 
 }
