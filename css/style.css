@@ -4,6 +4,13 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
+.price {
+
+}
+.price_tab {
+	text-align: center;
+}
+
 .tel {
 	font-size: 17px;
 	margin-left: 20px;
@@ -665,13 +672,28 @@ body {
 }
 @media only screen and (max-width: 1440px) {
 }
+.price_sef {
+	font-size: 17px;
+}
 @media only screen and (max-width: 1366px) {
+	.img-responsive {
+		max-width: 85%;
+	}
+	.price_sef {
+		font-size: 15px;
+	}
 }
 @media only screen and (max-width: 1280px) {
 }
 @media only screen and (max-width: 1024px) {
+	.price_sef {
+		font-size: 13px;
+	}
 	.logo img{
 		width: 60%;
+	}
+	.img-responsive {
+		max-width: 80%;
 	}
 	.h_right {
 		width: 80%;
@@ -769,6 +791,9 @@ body {
 	}
 }
 @media only screen and (max-width: 480px) {
+	.price_sef {
+		font-size: 12px;
+	}
 	.slider_text h2 {
 		font-size: 2em;
 	}
@@ -802,6 +827,9 @@ body {
 	
 }
 @media only screen and (max-width: 320px) {
+	.price_sef {
+		font-size: 12px;
+	}
 	.slider_text h2 {
 		font-size: 2.4em;
 	}
