@@ -433,6 +433,9 @@ body {
 .blog_img1{
 	margin-top: 6%;
 }
+.blog_left {
+	width: 100%;
+}
 .blog_left img{
 	width:100%;
 }
