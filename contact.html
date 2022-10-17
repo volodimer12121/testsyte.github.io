@@ -93,25 +93,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>				
 				<div class="col-md-8">
 				  <div class="contact-form">
+					
 				  	<h2>Написати нам</h2>
-					    <form method="post" action="contact-post.html">
-					    	<div>
-						    	<span>Ім'я</span>
-						    	<span><input type="username" class="form-control" id="userName"></span>
-						    </div>
-						    
-						    <div>
-						     	<span>Телефон</span>
-						    	<span><input type="number" class="form-control" id="number"></span>
-						    </div>
-						    <div>
-						    	<span>Текст</span>
-						    	<span><textarea name="userMsg"> </textarea></span>
-						    </div>
-						   <div>
-						   		<span><input type="submit" value="надіслати"></span>
-						  </div>
-					    </form>
+					  <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/mqkjdkgz" method="post">
+						<fieldset id="fs-frm-inputs">
+						  <label for="full-name">Ваше ім'я</label>
+						  <input type="text" name="name" id="full-name" placeholder="" required="">
+						  <label for="telephone">Номер телефону</label>
+						  <input type="telephone" name="telephone" id="telephone" placeholder="">
+						  <label for="complaint">Текст повідомлення</label>
+						  <textarea rows="6" name="complaint" id="complaint" placeholder="" required=""></textarea>
+						  <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
+						</fieldset>
+						<input type="submit" value="НАДІСЛАТИ">
+					  </form>
 				    </div>
   				</div>		
   				<div class="clearfix"></div>		
